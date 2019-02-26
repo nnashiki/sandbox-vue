@@ -9,8 +9,13 @@
     </title>
 </head>
 <body>
-<div id="app"><p>{{message}}<p></div>
+<div id="app"><p>{{message}}</p></div>
+<div id="app1"><input type="button" value="テスト1" v-on:click="increment">
+    <p>{{counter}}</p>
+</div>
 <input id="button" type="button" value="テスト" v-on:click="handleClick">
+
+
 <script src="https://cdn.jsdelivr.net/npm/vue@2.6.6/dist/vue.js"></script>
 <script src="./main.js"></script>
 </body>
